@@ -1,4 +1,4 @@
-## EEG dataset to classify alcoholic & non-alcoholic persons
+## Classification of Alcoholics & Non-Alcoholics via EEG signals
 
 This project aims to recognize the person as either alcoholic or non-alcoholic based on their EEG sample data
 
