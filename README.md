@@ -2,10 +2,10 @@
 
 This project aims to recognize the person as either alcoholic or non-alcoholic based on their EEG sample data
 
-
+<!-- 
 <img src= "https://i.ibb.co/x8tXZK0/alcoholic.gif">
 
-<img src = "https://i.ibb.co/QXDwNKK/control.gif">
+<img src = "https://i.ibb.co/QXDwNKK/control.gif"> -->
 
 We began with some set of textual data which was collected from multiple people and classified as Alcoholic and Controlled
 
