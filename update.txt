@@ -1,1 +1,2 @@
 Please upload the daily updates here.
+Separate columns of merged dataset according to different types of lobes(frontal, central, parietal etc)
