@@ -1,4 +1,4 @@
-## EEG dataset to classify alcoholic & non-alcoholic persons
+## Classification of Alcoholics & Non-Alcoholics via EEG signals
 
 This project aims to recognize the person as either alcoholic or non-alcoholic based on their EEG sample data
 
@@ -6,6 +6,8 @@ This project aims to recognize the person as either alcoholic or non-alcoholic b
 <img src= "https://i.ibb.co/x8tXZK0/alcoholic.gif">
 
 <img src = "https://i.ibb.co/QXDwNKK/control.gif"> -->
+
+## Data cleaning
 
 We began with some set of textual data which was collected from multiple people and classified as Alcoholic and Controlled
 
@@ -17,4 +19,25 @@ Then the multiple files for each person were combined into a single excel file
 
 We then used a method called FORce which is used to remove all the artifacts from the dataset which is basically non-human noise data in the EEG signal
 
-The next steps to be followed will be feature extraction using discrete wavelet transform and applying a classifier to the dataset
+
+## Feature extraction
+
+Feature extraction using the discrete wavelet transform function was applied to each of the files for ```15``` epochs
+
+Post creation of wavelet transform variables over the whole dataset for 15 epochs, we began feature extraction for each of the features
+
+The following features were extracted :
+* Wavelet energy
+* Shannon entropy
+* Mean
+* Variance
+* Median
+
+The average value of each feature was taken over the 15 epochs for each wavelet coefficient.
+
+<img src = "https://i.ibb.co/yNn82w7/Screenshot-2023-04-06-233611.png">
+
+
+The data was then converted to ```5(features) * 6(wavelet coefficients) = 30``` columns for classification
+
+## Classification
