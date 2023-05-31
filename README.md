@@ -17,7 +17,7 @@ The dataset was then cleaned and converted into excel format for removing noise 
 
 Then the multiple files for each person were combined into a single excel file 
 
-We then used a method called FORce which is used to remove all the artifacts from the dataset which is basically non-human noise data in the EEG signal
+We then used a method called FORCe which is used to remove all the artifacts from the dataset which is basically non-human noise data in the EEG signal
 
 
 ## Feature extraction
