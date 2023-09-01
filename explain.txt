@@ -1,0 +1,15 @@
+Sampling rate = 256Hz
+
+1 sec = 256 entries
+
+and 
+
+we are selecting data interval for 4 sec, ie, 4x256 = 1024 entries
+
+so we are doing this for 1min
+
+1min = 60 sec
+
+so, final entries from one subject would be equal to 
+
+256x60 = 15360

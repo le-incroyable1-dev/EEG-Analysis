@@ -17,12 +17,12 @@ The dataset was then cleaned and converted into excel format for removing noise 
 
 Then the multiple files for each person were combined into a single excel file 
 
-We then used a method called FORce which is used to remove all the artifacts from the dataset which is basically non-human noise data in the EEG signal
+We then used a method called FORCe which is used to remove all the artifacts from the dataset which is basically non-human noise data in the EEG signal
 
 
 ## Feature extraction
 
-Feature extraction using the discrete wavelet transform function was applied to each of the files for ```15``` epochs
+Feature extraction using the discrete wavelet transform function was applied to each of the files for ```15``` epochs, where each epoch was of ```4``` seconds and sampling rate was ```256``` Hz.
 
 Post creation of wavelet transform variables over the whole dataset for 15 epochs, we began feature extraction for each of the features
 
