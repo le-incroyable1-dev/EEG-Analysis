@@ -2,10 +2,10 @@
 
 This project aims to recognize the person as either alcoholic or non-alcoholic based on their EEG sample data
 
-<!-- 
+
 <img src= "https://i.ibb.co/x8tXZK0/alcoholic.gif">
 
-<img src = "https://i.ibb.co/QXDwNKK/control.gif"> -->
+<img src = "https://i.ibb.co/QXDwNKK/control.gif"> 
 
 ## Data cleaning
 
@@ -41,3 +41,25 @@ The average value of each feature was taken over the 15 epochs for each wavelet 
 The data was then converted to ```5(features) * 6(wavelet coefficients) = 30``` columns for classification
 
 ## Classification
+
+Further we applied several techniques to analyse and improve the data. The given data was tested after applying techniques like
+Principle Component Analysis, Correlation-based Selection and Information Gain-based Selection of the most vital features present in the given data.
+
+We also experimented with various splits in the training and testing data, primarily found 70-30 and 80-20 splits to be the most effective in
+terms of classification accuracy. After this, we applied several classification techniques using Pycaret, Tensorflow and Scikit-Learn. We also
+used Weka for streamlining the workflow. 
+
+Experimentation showed that the following techniques gave the best results in terms of classification accuracy:
+* Logistic Regression
+* Support Vector Machine
+* K-Nearest Neighbour
+* Naive Bayes Classifier
+* Bagging Classifier
+* Multi-Layer Perceptron
+
+We managed to achieve a maximum accuracy of upto 91.67% with classification by Logistic Regression.
+
+
+
+
+
